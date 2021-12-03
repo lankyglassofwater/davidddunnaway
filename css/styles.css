@@ -163,14 +163,15 @@
 
 .works-container > a > img {
 	height: auto;
-	max-width: 33vw;
+	max-width: 30vw;
 	padding: 5px;
+	margin-right: 3px;
 	border: solid black 1px;
 }
 
 .works-container > img {
 	height: auto;
-	max-width: 60vw;
+	max-width: 50vw;
 	padding: 5px;
 }
 
@@ -185,6 +186,33 @@
 	text-align: left;
 	//border: solid black 1px;
 }
+
+.works-container > p > a {
+	max-width: 40vw;
+	padding: 20px;
+	font-family: Helvetica;
+	font-weight: 400; 
+	font-size: 12px;
+	letter-spacing: -.0125rem;
+	line-height: 24px;
+	text-align: left;
+	text-decoration: inherit;
+	color: inherit;
+	//border: solid black 1px;
+}
+
+.film-container {
+	display: block;
+	margin-left: 33%;
+	padding-top: 240px;
+	//background-color: DodgerBlue;
+}
+
+.film-container > img {
+	max-width: 50vw;
+	padding: 5px;
+}
+
 
 
 @media screen and (max-width 600px) {
