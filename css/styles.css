@@ -205,6 +205,8 @@
 	display: block;
 	margin-left: 33%;
 	padding-top: 240px;
+	object-fit: scale-down;
+	overflow: auto;
 	//background-color: DodgerBlue;
 }
 
